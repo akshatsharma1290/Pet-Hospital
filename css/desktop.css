@@ -1,0 +1,1388 @@
+@media (min-width:992px){
+    /* Navbar  */
+
+    nav{
+        overflow: hidden;
+    }
+    .mobile-btn{
+      display: none;
+    }
+    .mobile-search{
+      display: none;
+    }
+    nav ul li a .mb-arrow{
+      display: none;
+    }
+    .navbar-toggler{
+      display: none;
+    }
+    .mobile-text{
+      display: none;
+    }
+    .active {
+     
+      border-bottom: 2px solid var(--primary-color);
+      }
+      
+      .active::before {
+        content: "";
+        position: absolute;
+        top: 31px;
+        height: 100px;
+        width: 2px;
+        background-color: var(--primary-color);
+      }
+      
+      nav ul li a:hover {
+        border-bottom: 2px solid var(--primary-color);
+      }
+      
+      nav ul li a:hover:before {
+        content: "";
+        position: absolute;
+        top: 31px;
+        height: 100px;
+        width: 2px;
+        background-color: var(--primary-color);
+      }
+      .mb-serviceitem2{
+        display:  none;
+      }
+      .tm-carousel .carousel-cell:nth-child(1){
+        left: -30px !important;
+      }
+      .tm-carousel .carousel-cell:nth-child(2){
+        left: -20px !important;
+      }
+      .tm-carousel .carousel-cell:nth-child(3){
+        left: -10px !important;
+      }
+      .tm-carousel .carousel-cell:nth-child(8){
+        left: 30px !important;
+      }
+      .tm-carousel .carousel-cell:nth-child(9){
+        left: 40px !important;
+      }
+      .tm-carousel .carousel-cell:nth-child(7){
+        left: 20px !important;
+      }
+      .tm-carousel .carousel-cell:nth-child(6){
+        left: 10px !important;
+      }
+      .bn-carousel .carousel-cell:nth-child(1){
+        left: -22px !important;
+      }
+      .bn-carousel .carousel-cell:nth-child(2){
+        left: -12px !important;
+      }
+      .bn-carousel .carousel-cell:nth-child(5){
+        left: 12px !important;
+      }
+      .bn-carousel .carousel-cell:nth-child(6){
+        left: 22px !important;
+      }
+      
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+/* Intro Part  */
+
+.ln-1{
+ font-size: 30px;
+}
+.ln-2{
+  font-size: 36px;
+}
+.topdogs img:nth-child(1){
+  right: 80px;
+  height: 295px;
+
+}
+.intro-content{
+  margin:80px ;
+}
+.btn-service a {
+  font-size: 14px;
+  width: 190px;
+}
+.btn-call a {
+  font-size: 13px;
+  width: 190px;
+}
+.phone{
+  margin-left: 5px;
+}
+
+
+/* About Part  */
+
+
+#about{
+  margin-top: 10px;
+}
+.about-item1 h3{
+  font-size: 30px;
+}
+.aboutitem1 p{
+  font-size: 15px;
+}
+.boxes p{
+  font-size: 14px;
+}
+
+/* Services Part  */
+
+
+.left-img img{
+  width: 415px;
+
+}
+.service-item h2{
+  font-size: 32px;
+}
+.itemline1 li .title{
+  font-size: 16px;
+}
+
+
+/* cta part  */
+
+.input-con{
+  width: 27vw ;
+}
+.inp-5{
+width: 55vw;
+}
+.right-text{
+  padding-left: 70px;
+  width: 40vw;
+}
+.right-text h1{
+  font-size: 46px;
+}
+.right-text p{
+  font-size:16px;
+}
+.contact-form{
+  margin-left: 15px;
+}
+
+
+/* Testimonial Part  */
+
+.flickity-prev-next-button.next {
+  right: 43vw;
+}
+
+.flickity-prev-next-button.previous {
+  left: 43vw;
+}
+
+
+/* Newsletter Part  */
+
+.nl-img img {
+  height: 356px;
+  margin-left: 87px;
+}
+.nl-text{
+  padding: 27px 90px;
+}
+.email-input{
+  width: 400px;
+}
+.newsletter-input .sub-btn{
+  right: -31px;
+}
+
+
+/* Footer Part */
+
+.fc-legal{
+  display: none;
+}
+.fc-contact p:nth-child(4){
+  width: 220px;
+}
+
+
+/* About.html Page  */
+
+.about-all-con .right-ab-img img{
+  height: 380px;
+}
+.about-all-con .aboutitem1 p {
+  font-size: 15px;
+}
+.about-all-con .aboutitem1 .btn-service a{
+  font-size: 15px;
+    width: 200px;
+}
+.about-all-con .mp-img1 img{
+  height: 154px;
+  margin-left: 70px;
+}
+.about-all-con .mp-text p{
+  font-size: 14px;
+}
+.about-all-con .mp-img2 img {
+  height: 169px;
+  margin-right: 79px;
+}
+.about-all-con .mp-img3 img {
+  margin-left: 70px;
+  height: 150px;
+}
+
+
+/* Team.html Page  */
+
+.team-title p{
+font-size: 32px;
+}
+.team-title img{
+  height: 195px;
+  right: 101px;
+}
+.team-title{
+  padding: 82px 72px;
+}
+.all-t-imgs{
+  width: 280px;
+}
+.small-photo img{
+  width: 300px;
+
+}
+.middle-imgs{
+  margin: 0 42px;
+}
+.img-desc{
+  width: 280px;
+}
+.imd-2{
+  left: 42px;
+}
+.small-photo .img-desc {
+  width: 300px;
+}
+.line-2 .team-card .img-desc {
+  top: 79px !important;
+  bottom:53px;
+}
+.team-card .img-desc {
+  top: 70px !important;
+}
+.name-text p:nth-child(2){
+  margin-left: 45px;
+}
+.small-photo .name-text p:nth-child(2) {
+  margin-left: 77px;
+}
+.p-3{
+  font-size: 13px;
+}
+
+
+
+/* Gallery.html Page  */
+
+.gl img {
+  height: 205px;
+}
+.gl-4 img:nth-child(1){
+  height: 207px;
+}
+.gl-3 img{
+  height: 220px;
+}
+.allheight2{
+  height: 218px !important;
+}
+.allheight{
+  height:207px !important;
+}
+
+
+ /* Contact.html Page  */
+
+ .contact-dog img {
+  margin-top: 186px;
+  margin-left: -76px;
+  width: 353px;
+}
+.contact-part2 .input-con{
+  width: 25vw;
+}
+.contact-part2 .inp-5{
+  width: 51vw;
+}
+.contact-part2 .contact-form{
+  margin-left: 0;
+}
+
+
+
+/* Services.html Page  */
+
+.left-boxes{
+  margin-left: 85px;
+}
+
+.box-title{
+  width: 230px;
+  height: 55px;
+  font-size: 15px;
+}
+.s-icon{
+  width: 57px;
+  height: 57px;
+  left: -11px;
+  top: -2px;
+}
+.active-title{
+  width: 260px;
+    height: 64px;
+
+}
+.active-icon{
+ 
+    width: 75px;
+    height: 75px;
+}
+.right-boxes{
+  margin-left: 30px;
+}
+.right-boxes p {
+  padding-right: 60px;
+
+}
+ .right-boxes h3{
+  padding-right: 80px;
+}
+.box-list li{
+  font-size: 16px;
+}
+
+
+
+
+
+}
+
+
+@media (min-width:1200px) and (max-width:1290px){
+ 
+  /* Intro Part  */
+.topdogs img:nth-child(1){
+  height:340px;
+}
+/* Newsletter  */
+.right-text h1{
+  font-size: 62px;
+}
+
+/* Footer  */
+.fc-contact{
+  padding-left: 0;
+}
+
+
+
+
+}
+
+@media (min-width:1400px){
+
+/* Navbar  */
+
+.com-name{
+  font-size: 22px;
+}
+nav ul li a{
+  font-size: 18px;
+}
+.am-dog{
+  height: 90px;
+}
+
+
+/* Intro Part  */
+
+.ln-1{
+font-size: 46px;
+}
+.ln-2{
+  font-size: 58px;
+}
+.dummy-ln{
+  font-size: 18px;
+}
+.btn-service a{
+width:230px;
+font-size: 18px;
+}
+.btn-call a{
+  width:230px;
+  font-size: 16px;
+}
+/* About Part  */
+.aboutitem1 h3{
+  font-size: 36px;
+}
+.aboutitem1 p{
+font-size: 17px;
+}
+.boxes h3{
+  font-size: 21px;
+}
+.boxes p{
+  font-size: 15px;
+}
+.service-item h2{
+  font-size: 45px;
+}
+.service-item p{
+  font-size: 15px;
+}
+.service-item li{
+  font-size: 18px;
+  width: 360px;
+}
+/* cta Part  */
+
+.input-con{
+  width: 27vw
+}
+.inp-5{
+  width:55vw
+}
+.right-text{
+  width: 41vw;
+}
+.contact-part{
+  justify-content: center;
+}
+.contact-form{
+  margin-right: 30px;
+}
+
+
+
+
+
+/* Newsletter Part  */
+
+.nl-img img{
+  width: 450px;
+}
+.nl-text h2{
+  font-size: 56px;
+}
+.nl-text p{
+  font-size: 16px;
+}
+/* Service part 2 */
+.itemline1 li{
+  width: 90px;
+  height: 90px;
+  }
+  .itemline1 li:hover{
+    width: 310px;
+  }
+  .itemline1 .icon{
+    font-size: 32px;
+  }
+
+
+ /* About.html Page  */
+
+  .about-all-con .aboutitem1 h3{
+    font-size: 42px;
+  }
+  .about-all-con .aboutitem1 p{
+    font-size: 19px;
+  }
+  .about-all-con .btn-service a {
+    width: 261px;
+    font-size: 19px;
+  }
+  .about-all-con .mp-img1 img {
+    height: 194px;
+  
+  }
+  .about-all-con .mp-text h3{
+    font-size: 26px;
+  }
+  .about-all-con .mp-text p{
+    font-size: 18px;
+  }
+ .about-all-con .mp-img2 img {
+    height: 200px;
+  
+  }
+  .about-all-con .mp-img3 img{
+    height: 194px;
+  }
+
+  /* Team.html Page  */
+
+
+.team-title p{
+  font-size: 45px;
+}
+.team-title span{
+  font-size: 46px;
+}
+.team-title img{
+  height: 225px;
+}
+.pn-box{
+  width: 68px;
+  height: 56px;
+}
+
+
+
+/* Gallery.html Page  */
+
+.gallery-img h2 , .gallery-img span{
+  font-size: 48px;
+}
+.gl img{
+  height:280px;
+}
+ .gl-3 img{
+   height: 300px;
+ }
+ .gl-4 img:nth-child(1) {
+  height: 273px;
+}
+.allheight2 {
+  height: 298px !important;
+}
+.allheight{
+  height: 280px !important;
+}
+
+
+/* Contact.html Page  */
+
+.contact-dog  img{
+  width: 464px;
+  margin-left: -78px;
+  margin-top: 157px;
+}
+
+
+  
+
+
+
+
+
+}
+
+@media (min-width:1600px){
+
+.topdogs img:nth-child(1){
+  height: 500px;
+}
+.fc-contact p:nth-child(4){
+  width: 220px;
+}
+.all-fc{
+  padding: 85px;
+}
+.f-text p{
+  font-size: 18px;
+}
+
+
+ /* About.html Page  */
+
+ .about-all-con .aboutitem1 h3{
+  font-size: 44px;
+}
+.about-all-con .right-ab-img img{
+  height: 507px;
+}
+.about-all-con .aboutitem1 p{
+  font-size: 20px;
+}
+.about-all-con .btn-service a {
+  width: 261px;
+  font-size: 19px;
+}
+.about-all-con .mp-img1 img {
+  height: 201px;
+
+}
+.about-all-con .mp-text h3{
+  font-size: 28px;
+}
+.about-all-con .mp-text p{
+  font-size: 20px;
+}
+.about-all-con .mp-img2 img {
+  height: 228px;
+
+}
+.about-all-con .mp-img3 img{
+  height: 227px;
+}
+
+/* team.html Page */
+
+.team-title {
+  padding: 82px 134px;
+}
+.team-title p {
+  font-size: 50px;
+}
+.team-title span{
+  font-size: 53px;
+}
+.team-title img{
+  height: 250px;
+}
+.all-t-imgs{
+  width: 374px;
+}
+.teamti-1{
+  height: 267px;
+}
+.small-photo img{
+   width: 398px;
+}
+.imd-2{
+  width: 374px;
+}
+.small-photo .img-desc{
+  width: 398px;
+}
+.name-text p:nth-child(1){
+  font-size: 17px;
+}
+.p-3{
+  font-size: 16px;
+}
+.name-text p:nth-child(2){
+  width: 146px;
+}
+.pn-box{
+  width: 80px;
+  height: 65px;
+}
+.bline-1{
+  left: -33px;
+}
+.bline-2{
+  right: -33px;
+}
+
+
+/* Gallery.html Page  */
+
+.gallery-img h2 , .gallery-img span{
+  font-size: 58px;
+}
+.gallery-img img {
+  height: 264px;
+}
+.gl img{
+  height:323px;
+}
+ .gl-3 img{
+   height: 346px;
+ }
+ .gl-4 img:nth-child(1) {
+  height: 321px;
+}
+.allheight2 {
+  height: 348px !important;
+}
+.allheight{
+  height: 326px !important;
+}
+
+/* contact.html Page  */
+
+.contact-part2 .input-con{
+  width: 25vw;
+  font-size: 17px;
+}
+.contact-part2 .inp-5{
+  width: 51vw;
+}
+.contact-part2 label{
+  font-size: 20px;
+}
+.contact-dog img{
+  width: 551px;
+}
+
+
+/* Services.html Page  */
+
+
+.box-title{
+  height:64px;
+  width: 287px;
+  font-size: 19px;
+}
+.s-icon{
+  width: 78px;
+  height: 78px;
+  left: -22px;
+  top: -12px;
+}
+.s-boxes{
+  height: 110px;
+}
+.active-title{
+  width: 332px;
+  height: 78px;
+}
+.active-icon{
+  width: 90px;
+  height: 90px;
+}
+.right-boxes p{
+  font-size: 19px;
+}
+.right-boxes h3{
+  font-size: 22px;
+}
+.box-list li{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (min-width:1700px){
+
+header{
+  height: 64px;
+
+}
+
+
+.left-con p{
+  font-size: 22px;
+  margin-top: 20px;
+}
+.right-con p{
+  font-size: 22px;
+  margin-top: 20px;
+}
+.content   i{
+  font-size: 17px !important;
+}
+.com-name{
+  font-size: 27px;
+}
+.dot{
+  margin-right: 3px;
+  width: 10px;
+  height: 10px;
+}
+nav ul li a{
+  font-size: 25px;
+}
+.active::before{
+  top: 43px;
+}
+nav ul li a:hover:before{
+  top: 43px;
+}
+
+
+
+
+/* Intro Part  */
+
+.ln-1{
+  font-size: 62px;
+  }
+  .ln-2{
+    font-size: 72px;
+  }
+  .dummy-ln{
+    font-size: 22px;
+  }
+  .btn-service a{
+  width:270px;
+  height: 60px;
+  font-size: 18px;
+  }
+  .btn-call a{
+    width:270px;
+    height: 60px;
+    font-size: 18px;
+  }
+  /* About Part  */
+  .aboutitem1 h3{
+    font-size: 43px;
+  }
+  .aboutitem1 p{
+  font-size: 19px;
+  }
+  .btn-service.two a {
+    font-size: 18px;
+  }
+  .boxes h3{
+    font-size: 26px;
+  }
+  .boxes p{
+    font-size: 18px;
+  }
+  .left-img img{
+    width: 600px;
+  }
+  .service-item h2{
+    font-size: 60px;
+  }
+  .service-item p{
+    font-size: 19px;
+  }
+  .service-item li{
+    font-size: 22px;
+    width: 431px;
+  }
+.itemline1 li{
+  width:100px;
+  height: 100px;
+  font-size: 21px;
+}
+.itemline1 li:hover{
+  width: 360px;
+}
+.itemline1 .icon{
+  font-size: 36px;
+}
+
+
+
+  /* cta Part  */
+  
+
+.right-text h1{
+  font-size: 88px;
+}
+.right-text p{
+  font-size: 20px;
+}
+.contact-form .heading{
+  font-size: 31px;
+}
+.contact-form label{
+ margin:  18px 0 18px;
+ font-size: 23px;
+}
+.second-row label{
+  margin: 18px 0 18px 28px;
+}
+.last-column:nth-child(2) label:nth-child(1){
+  margin: 18px 0 18px 28px;
+}
+.tm-headline h3{
+  font-size: 46px;
+}
+.tm-headline p{
+  font-size: 20px;
+}
+.bn-headline h3{
+  font-size: 46px;
+}
+.bn-headline p{
+  font-size: 20px;
+}
+.carousel-cell {
+  width: 465px;
+  height: 253px;
+}
+  
+.boy-con h3{
+  font-size: 22px;
+ 
+}
+.boy-con h5{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.boy-con p{
+  font-size: 18px;
+}
+.boy1{
+  height: 175px;
+}
+.nl-img img{
+  height: 550px;
+}
+.nl-text h2 {
+  font-size: 68px;
+}
+.nl-text p{
+  font-size: 19px;
+}
+.email-input{
+  font-size: 17px;
+  
+  width: 537px;
+  height: 65px;
+  padding-left: 26px;
+
+}
+.nl-text button{
+  width: 231px;
+  height: 66px;
+  right: -122px;
+}
+.flickity-viewport{
+  overflow: unset;
+}
+.flickity-page-dots{
+  top: 117%;
+}
+.bn-carousel .flickity-prev-next-button {
+  top: 147%;
+}
+.bn-carousel .carousel-cell .profile-img {
+  height: 82px;
+}
+
+
+.bn-carousel .carousel-cell .name{
+  font-size: 23px;
+}
+.fake-arrow{
+  font-size: 20px;
+  margin-right: 20px;
+}
+.bn-carousel .carousel-cell{
+  width: 550px;
+  height: 460px;
+}
+.bn-carousel .carousel-cell h4{
+  font-size: 25px;
+}
+.bn-carousel .carousel-cell p {
+  font-size: 18px;
+}
+.bn-profile{
+  width: 550px;
+  margin-left: 20px;
+}
+
+
+.bn-carousel .carousel-cell .date{
+  font-size: 20px;
+}
+
+#footer{
+  margin-top:408px ;
+}
+.all-fc p{
+  font-size: 21px;
+}
+.all-fc p{
+  width: 211px;
+}
+.contact-3{
+  width: 252px !important;
+}
+.all-fc{
+  padding-left: 43px;
+}
+
+.am-dog{
+  height: 105px;
+}
+
+
+
+/* About.html Page  */
+
+.about-all-con .right-ab-img img{
+  height: 524px;
+}
+.about-all-con .aboutitem1 p{
+  font-size: 21px;
+}
+.about-all-con .btn-service a {
+  width: 270px;
+  font-size: 21px;
+}
+
+
+/* team.html Page */
+
+.team-title {
+  padding: 82px 150px;
+}
+.team-title p {
+  font-size: 55px;
+}
+.team-title span{
+  font-size: 57px;
+}
+.team-title img{
+  height: 270px;
+}
+.all-t-imgs{
+  width: 430px;
+}
+.teamti-1{
+  height: 311px;
+}
+.small-photo img{
+   width: 464px;
+}
+.imd-2{
+  width: 430px;
+}
+.small-photo .img-desc{
+  width: 464px;
+}
+.name-text p:nth-child(1){
+  font-size: 22px;
+}
+.p-3{
+  font-size: 19px;
+  margin-top: 16px;
+}
+.name-text p:nth-child(2){
+  width: 175px;
+  height: 34px;
+  font-size: 19px;
+}
+.pn-box{
+  width: 100px;
+  height: 75px;
+  font-size: 30px;
+}
+.bline-1{
+  left: -43px;
+}
+.bline-2{
+  right: -43px;
+}
+
+/* Gallery.html Page  */
+
+.gallery-img h2 , .gallery-img span{
+  font-size: 68px;
+}
+.gallery-img img {
+  height: 278px;
+}
+.gl img{
+  height:361px;
+}
+ .gl-3 img{
+   height: 392px;
+ }
+ .gl-4 img:nth-child(1) {
+  height: 363px;
+}
+.allheight2 {
+  height: 387px !important;
+}
+.allheight{
+  height: 362px !important;
+}
+
+/* Contact.html Page  */
+
+.contact-dog img{
+  width: 610px;
+}
+.contact-part2 .input-con{
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+}
+
+@media (min-width:1900px){
+
+/* Intro Part  */
+.ln-1{
+  font-size: 82px;
+}
+.ln-2{
+  font-size: 94px;
+}
+.dummy-ln{
+  font-size: 25px;
+}
+.btn-service a , .btn-call a{
+  width: 330px;
+  font-size: 20px;
+}
+
+/* About Item  */
+.about-item1 h3{
+  font-size: 53px;
+}
+.about-item1 p{
+  font-size: 22px;
+}
+.btn-service.two a {
+  font-size: 20px;
+}
+.am-dog{
+  height: 120px;
+}
+.boxes h3{
+  font-size: 28px;
+}
+.boxes p {
+  font-size: 19px;
+}
+
+/* Services Part  */
+.left-img img{
+  width: 655px;
+}
+.service-item h2{
+  font-size: 69px;
+}
+.service-item p {
+  font-size: 21px;
+}
+
+.service-item li{
+  font-size: 23px;
+    width: 497px;
+}
+
+.itemline1 li{
+  width: 120px;
+    height: 120px;
+    font-size: 22px;
+}
+
+.itemline1 li:hover {
+  width: 400px;
+}
+
+/* Contact Form  */
+.right-text h1 {
+  font-size: 95px;
+}
+.right-text p {
+  font-size: 21px;
+}
+.contact-form .heading {
+  font-size: 34px;
+}
+.input-con{
+  height: 60px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+.contact-form label{
+  font-size: 25px;
+}
+.submit-btn {
+  width: 310px;
+  font-size: 23px;
+}
+
+/* Testimonial  */
+.tm-headline h2{
+  font-size: 41px;
+}
+.tm-headline p{
+  font-size: 21px;
+}
+.tm-carousel .carousel-cell{
+  width: 530px;
+}
+.flickity-prev-next-button {
+  width: 53px;
+  height: 106px;
+}
+.nl-img img{
+  width: 620px;
+  height: auto;
+}
+.nl-text h2{
+  font-size: 85px;
+}
+.nl-text p {
+  font-size: 21px;
+}
+.email-input{
+  width: 600px;
+  font-size: 21px;
+}
+.nl-text button{
+  font-size: 25px;
+}
+#newsletter{
+  margin-top: 255px;
+}
+
+/* Blog and News  */
+
+.bn-headline h2{
+  font-size: 41px;
+}
+.bn-headline p{
+  font-size: 21px;
+}
+.bn-carousel .carousel-cell{
+  height: 505px;
+}
+.bn-carousel .flickity-prev-next-button {
+  top: 136%;
+}
+
+/* Footer  */
+.pet-logo{
+  width: 9vw;
+  
+}
+.com-name{
+  font-size: 31px;
+}
+.f-text p {
+  font-size: 19px;
+}
+.all-fc{
+  font-size: 24px;
+}
+.all-fc p {
+  width: 245px;
+  font-size: 23px;
+}
+.all-fc{
+  padding-left: 75px;
+}
+
+
+/* About.html Page  */
+
+.about-all-con .right-ab-img img{
+  height: 560px;
+}
+.about-all-con .mp-text p {
+  font-size: 22px;
+}
+.about-all-con .mp-text h3 {
+  font-size: 31px;
+}
+.about-all-con .aboutitem1 p{
+  font-size: 22px;
+}
+.about-all-con .aboutitem1 .btn-service a {
+  font-size: 23px;
+  width: 285px;
+}
+
+
+/* Gallery.html Page  */
+
+.gallery-img h2 , .gallery-img span{
+  font-size: 74px;
+}
+.gallery-img img {
+  height: 285px;
+}
+.gl img{
+  height:374px;
+}
+ .gl-3 img{
+   height: 400px;
+ }
+ .gl-4 img:nth-child(1) {
+  height: 372px;
+}
+.allheight2 {
+  height: 400px !important;
+}
+.allheight{
+  height: 373px !important;
+}
+
+
+
+/* Contact.html Page */
+
+.contact-part2 .talk{
+  font-size: 55px;
+}
+.contact-part2 .fp{
+  font-size: 17px;
+}
+.contact-part2 .submit-btn{
+  height: 54px;
+}
+
+
+
+/* Services.html Page  */
+
+
+.box-title{
+  height:67px;
+  width: 300px;
+  font-size: 21px;
+}
+.s-icon{
+  width: 90px;
+  height: 90px;
+  left: -36px;
+  top: -14px;
+}
+.s-boxes{
+  height: 120px;
+}
+.active-title{
+  width: 350px;
+  height: 80px;
+}
+.active-icon{
+  width: 105px;
+  height: 105px;
+}
+.right-boxes{
+  margin-left: 200px;
+}
+.right-boxes p{
+  font-size: 21px;
+  padding-right: 315px;
+}
+.right-boxes h3{
+  font-size: 25px;
+}
+.box-list li{
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+}

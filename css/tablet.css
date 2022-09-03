@@ -1,0 +1,570 @@
+@media (min-width:576px) and (max-width:991px) {
+
+
+
+    /* Navbar  */
+    .com-name {
+        font-size: 20px;
+    }
+
+    .pet-logo {
+        width: 70px;
+    }
+
+    /* Intro Part  */
+
+    .ln-1 {
+        font-size: 7vw;
+    }
+
+    .ln-2 {
+        font-size: 8vw;
+    }
+
+    .dummy-ln {
+        font-size: 17px;
+        margin-left: 1.3vw;
+    }
+
+    .intro-content {
+        text-align: center;
+    }
+
+    /* About Part  */
+    .boxes h3 {
+        font-size: 19px;
+    }
+
+    .boxes-p {
+        font-size: 14px;
+    }
+
+    /* Services Part  */
+    .left-img img {
+        width: 75vw;
+    }
+
+    .service-item {
+        width: 75vw;
+    }
+
+    .service-list li {
+        width: 75vw;
+    }
+
+    .mobileservice .mb-item .ms-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mb-item {
+        width: 30vw;
+    }
+
+    span.ms-title {
+        font-size: 18px;
+    }
+
+    /* Contact Form  */
+    .mobile-df-text {
+        font-size: 65px !important;
+    }
+
+    .contact-form .heading {
+        font-size: 30px;
+    }
+
+    .first-column {
+        flex-direction: row;
+    }
+
+    .last-row {
+        flex-direction: row;
+    }
+
+    .input-con {
+        width: 45vw;
+    }
+
+    .last-row .last-column:nth-child(2) {
+        margin-left: 1vw;
+    }
+
+    .big-inp input[type=text] {
+        width: 91vw;
+    }
+
+    .contact-form .submit {
+        text-align: right;
+    }
+
+    /* Testimonial */
+    .tm-carousel .carousel-cell {
+        width: 46vw;
+    }
+
+    .flickity-prev-next-button.previous {
+        left: 40vw;
+    }
+
+    .flickity-prev-next-button.next {
+        right: 40vw;
+    }
+
+    /* Blog and News  */
+    .bn-carousel .carousel-cell {
+        width: 45vw;
+
+    }
+
+    .bn-profile {
+        width: 40vw;
+    }
+
+    /* Footer  */
+    .fc-contact {
+        position: static;
+    }
+
+    .fc-hrefs .contact-2,
+    .contact-3 {
+        position: static;
+    }
+
+    .all-fc {
+        padding: 46px;
+    }
+
+    .fc-right {
+        margin-bottom: 16px;
+    }
+
+    .fc-legal,
+    .fc-contact {
+        padding: 10px;
+    }
+
+
+    /* About.html Part  */
+
+    .about-all-con .mab-points {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-all-con .mp-img1 img {
+        height: 140px;
+        margin-left: 12px;
+    }
+
+    .about-all-con .mp-text {
+        width: 82vw;
+        font-size: 14px;
+    }
+
+    .about-all-con .mp-text p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .about-all-con .mp-img2 img {
+        height: 153px;
+    }
+
+    .about-all-con .mp-img3 img {
+        height: 150px;
+        margin-left: 20px;
+    }
+
+
+    .tm-carousel .carousel-cell {
+        margin-left: unset;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(1) {
+        left: -30px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(2) {
+        left: -20px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(3) {
+        left: -10px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(8) {
+        left: 40px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(9) {
+        left: 50px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(7) {
+        left: 30px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(6) {
+        left: 20px !important;
+    }
+
+    .tm-carousel .carousel-cell:nth-child(5) {
+        left: 10px !important;
+    }
+
+    .flickity-slider {
+        left: 20px !important;
+    }
+
+
+
+
+    /* Team.html Page  */
+
+
+    .team-title p {
+        font-size: 6vw;
+    }
+
+    .team-title span {
+        font-size: 9vw;
+    }
+
+    .middle-imgs,
+    .small-photo img {
+        margin: 0 15px;
+    }
+
+    .small-photo img {
+        width: 309px;
+    }
+
+    .small-photo .img-desc {
+        left: 15px;
+        bottom: 6px;
+        width: 309px;
+        top: 0px !important;
+    }
+
+    .team-card.ti-2 .img-desc {
+        top: 0 !important;
+        left: 15px;
+    }
+
+
+    /* Gallery.html Page  */
+
+    .gallery-img h2,
+    .gallery-img span {
+        font-size: 8vw;
+    }
+
+    .gl img:nth-child(2) {
+        margin: 0 30px;
+    }
+
+    .gl img:nth-child(3) {
+        margin-top: 18px;
+    }
+
+    .gl img {
+        height: 190px !important;
+    }
+
+
+    /* Contact.html Page  */
+
+
+    .contact-dog img{
+        width: 390px;
+    }
+    .contact-part2{
+        margin-top: 395px;
+    }
+    .contact-part2 .fp{
+        padding: 0 33px;
+    }
+
+
+
+  /* Services.html Page  */
+
+
+ .right-boxes h3{
+     font-size: 3vw;
+ }
+ .s-icon{
+    width: 55px;
+    height: 55px;
+    top:0;
+ }
+ .active-icon {
+     width: 65px;
+     height: 65px;
+ }
+ .box-list{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .box-list li{
+     margin-right: 38px;
+ }
+
+
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /* Intro Part  */
+
+
+    .intro-content {
+        text-align: start;
+    }
+
+    .ln-1 {
+        font-size: 5vw;
+    }
+
+    .ln-2 {
+        font-size: 6vw;
+    }
+
+    .dummy-ln {
+        font-size: 16px;
+        margin-right: 1.3vw;
+    }
+
+    .topdogs img:nth-child(1) {
+        display: block;
+        height: 27vw;
+        right: 4vw;
+    }
+
+    .intro-content .buttons {
+        padding: 60px 0;
+        transform: translateX(-17px);
+
+    }
+
+    .buttons {
+        width: 100vw;
+    }
+
+    .buttons .btn-call a {
+        width: 35vw;
+
+    }
+
+    .buttons .btn-service a {
+        width: 35vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /* About-us  Part  */
+    .am-dog {
+        height: 75px;
+    }
+
+    .boxes h3 {
+        font-size: 20px;
+    }
+
+    .boxes p {
+        font-size: 15px;
+    }
+
+    .about-item1 p {
+        font-size: 16px;
+    }
+
+    /* Services Part  */
+
+    .services-con {
+        flex-direction: row;
+    }
+
+    .left-img img {
+        width: 387px;
+    }
+
+    .service-item {
+        width: 47vw;
+        margin-top: 0;
+        margin-left: 45px;
+    }
+
+    .service-item li {
+        width: 47vw;
+
+    }
+
+    /* Newsletter */
+    .nl-text p {
+        font-size: 14px;
+    }
+
+    /* Footer  */
+    .contact-3 {
+        width: 197px;
+    }
+
+    .all-fc {
+        padding: 65px;
+    }
+
+    /* Blog and News  */
+    .bn-carousel .carousel-cell img {
+        height: 160px;
+    }
+
+    /* Contact Part  */
+
+    #cta {
+        margin-top: 90px;
+    }
+
+
+    /* About.html Part  */
+
+
+    .about-all-con .aboutitem1 h3 {
+        font-size: 36px;
+    }
+
+    .about-all-con .aboutitem1 p {
+        font-size: 16px;
+    }
+
+    .about-all-con .aboutitem1 .btn-service.two a {
+        font-size: 19px;
+    }
+
+    .about-all-con .desktop-point {
+        display: flex;
+    }
+
+    .about-all-con .mb-point {
+        display: none;
+    }
+
+    .about-all-con .point-2 .mp-text {
+        padding-left: 40px;
+        padding-right: 0;
+        width: 68vw;
+    }
+
+    .about-all-con .mp-img1 img {
+        height: 147px;
+        margin-left: 17px;
+    }
+
+    .about-all-con .mp-img2 img {
+        height: 163px;
+    }
+
+    .about-all-con .mp-img3 img {
+        height: 160px;
+    }
+
+
+
+    /* Team.html Page  */
+
+
+    .team-title {
+        justify-content: unset;
+    }
+
+    .team-title p {
+        margin-left: 40px;
+        font-size: 36px;
+    }
+
+    .team-title span {
+        font-size: 52px;
+    }
+
+    .team-title img {
+        display: block;
+        height: 166px;
+        right: 44px;
+    }
+
+
+  .doc-3 {
+        height: 196px;
+    }
+
+
+
+    /* Gallery.html Page  */
+
+    .gallery-img h2,
+    .gallery-img span {
+        font-size: 5vw !important;
+
+    }
+
+    .gallery-img h2 {
+        margin-left: 25px;
+    }
+
+    .gl img {
+        height: 20vw !important;
+    }
+
+    .gl img:nth-child(3) {
+        position: relative;
+    }
+   
+ /* Contact.html Page  */
+
+
+ .contact-dog img{
+    width: 565px;
+}
+.contact-part2{
+    margin-top: 555px;
+}
+
+
+/* Services.html Page  */
+
+.left-boxes{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: unset;
+    flex-direction: unset;
+    gap: 35px;
+}
+.s-boxes{
+    width: 345px;
+    height: 60px;
+}
+
+.box-list{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.right-boxes{
+    margin-top: 60px;
+}
+.right-boxes h3{
+    font-size: 2.5vw;
+}
+.right-box-1{
+    margin-top: 22px;
+}
+
+
+
+
+
+}
